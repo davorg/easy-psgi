@@ -12,3 +12,9 @@ that I wrote for Linux Format back in 2000.
 **Note:** I'm not saying that I think this is the best way of writing
 web programs in Perl. I am saying that this is a reasonably easy way to
 port old CGI programs to PSGI.
+
+**Note2:** It's also worth pointing out that if you have a pile of old CGI
+programs that you want to move to PSGI as quickly and as painlessly as
+possible, then you should look at
+[CGI::Emulate::PSGI](https://metacpan.org/pod/CGI::Emulate::PSGI) or
+[CGI::PSGI](https://metacpan.org/pod/CGI::PSGI).
